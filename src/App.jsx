@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 //Componentss
 import Footer from "./components/Footer";
-import Header from "./components/header";
+import Header from "./components/Header";
 import List from './components/List'
 import Login from './components/Login'
 import Detail from "./components/Detail";
