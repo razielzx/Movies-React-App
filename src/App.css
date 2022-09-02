@@ -1,0 +1,6 @@
+.card-text,
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50px;
+}
