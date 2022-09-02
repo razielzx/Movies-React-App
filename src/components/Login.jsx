@@ -31,13 +31,14 @@ const Login = () => {
         };
 
         axios
-            .post('https://challenge-react.alkemy.org', { email, password})
+            .post('https://challenge-react.alkemy.org:splat 200', { email, password})
             .then( res => {
                 swAlert(<h2>Logged!</h2>);
                 const receivedToken = res.data.token;
                 localStorage.setItem("token", receivedToken);
                 navigate("/list");
             })
+            .catch(err => console.log(err))
     };
 
 
