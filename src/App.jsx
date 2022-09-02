@@ -1,7 +1,7 @@
 //Libraries
 import { Routes, Route } from "react-router-dom";
 
-//Components
+//Componentss
 import Footer from "./components/Footer";
 import Header from "./components/header";
 import List from './components/List'
