@@ -31,7 +31,7 @@ const Login = () => {
         };
 
         axios
-            .post('http://challenge-react.alkemy.org', { email, password})
+            .post('https://cors-everywhere.herokuapp.com/http://challenge-react.alkemy.org', { email, password})
             .then( res => {
                 swAlert(<h2>Logged!</h2>);
                 const receivedToken = res.data.token;
